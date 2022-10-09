@@ -14,8 +14,7 @@ function App() {
 
   function prev() {
     if (count <= 0) {
-      console.log("prev " + count);
-      return setCount(1);
+      return setCount(length);
     }
     setCount(count - 1);
   }
